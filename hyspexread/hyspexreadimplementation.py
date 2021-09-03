@@ -77,11 +77,11 @@ class HySpex():
             "detectstring": f.read(200),
             "sensor": f.read(200),
             "framegrabber": f.read(200),
-            "ID": f.read(200).rstrip('\x00'),
+            "ID": f.read(200)#.rstrip('\x00'),
             "supplier": f.read(200),
             "left_gain": f.read(32),
             "right_gain": f.read(32),
-            "Comment":f.read(200).rstrip('\x00'),
+            "Comment":f.read(200)#.rstrip('\x00'),
             "backgroundfile": f.read(200),
             "recordHD":f.read(1), #´ 1945
             # no idea what the following value is...
