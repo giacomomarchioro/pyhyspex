@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hyspexread",
-    version="0.0.2",
+    version="0.0.25",
     author="Giacomo Marchioro",
     author_email="giacomomarchioro@outlook.com",
     description="A module for opening HySpex binary files.",
